@@ -1,8 +1,4 @@
 # %%
-import pandas as pd
-import numpy as np
-import re
-
 with open('day6_data.txt') as f:
     lines = f.readlines()
 # %%
@@ -18,9 +14,7 @@ def find_unique_seq(input_str, num_seq):
             unique_seq = True
 
         start_pos += 1
-    
 # %%
 find_unique_seq(lines[0], 4)
 # %%
 find_unique_seq(lines[0], 14)
-# %%
