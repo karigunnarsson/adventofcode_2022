@@ -33,8 +33,6 @@ def single_row_is_contained(elf1_str, elf2_str):
 
     return is_contained
 
-i = 4
-# %%
 # %%
 data_pd["is_contained"] = data_pd.apply(lambda row: single_row_is_contained(row["elf1"], row["elf2"]), axis = 1)
 
